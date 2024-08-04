@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:#f7f8f9;
+    background-repeat: repeat;
+}
+.navbar-brand{
+    margin-left: 50px;
+}
+.button-nav{
+    margin-right: 30px;
+}
+
+.nav-item {
+    font-size: medium;
+    font-weight: 600;
+    padding-right: 20px !important;
+}
+
+.content-home h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder !important;
+    padding-top: auto;
+}
+
+.home-paragraph {
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-top: 15px;
+    color: #00000080;
+    font-family: 'manrope',sans-serif ;
+}
+
+.btn {
+    font-size: large;
+}
+
+.btn:hover {
+    background-color: #e3e0de;
+    color: #0a0a0a;
+}
+.card-img-top{
+    width: 200px;
+    margin-left: 70px;
+  
+}
+.card-title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.card-text{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+    color: rgb(126, 126, 126);
+}
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgb(221, 220, 220);
+}
+.heading-text-card{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+span{
+    color: rgb(219, 40, 40);
+}
+.subheading-text-card{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+
+/* about-page */
+.aboutbg {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.aboutbg img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.aboutbg h1 {
+    position: absolute;
+    top: 40%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    /* Optional: Add padding */
+    border-radius: 10px;
+    /* Optional: Add border radius */
+}
+
+.aboutbg h2 {
+    position: absolute;
+    top: 55%;
+    left: 49%;
+    transform: translate(-50%, -50%) !important;
+    color: bisque;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    /* Optional: Add padding */
+    border-radius: 10px;
+    /* Optional: Add border radius */
+
+}
+
+.abottext {
+    padding-top: 100px;
+
+    color: rgb(208, 34, 34);
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:50px;
+    margin-right: 50px; 
+}
+
+.aboutbdy-text {
+    color: rgb(151, 150, 148);
+    font-size: 21px;
+    font-weight: normal;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 100px; 
+    margin-left:50px;
+    margin-right: 50px;  
+}
+.wrapperr{
+background:rgb(252, 251, 251);
+    border-radius: 10px;
+    box-shadow: 0 0 40px 2px rgba(152, 159, 189, 0.18);
+}
+.content{
+    padding: 20px;
+}
+.content h1{
+    margin-top: 5% ;
+    color: #1e1d1f;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 3.2rem;
+}
+.content p{
+   
+    color: #00000080;
+    font-family: 'manrope',sans-serif ;
+    font-size: larger;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.content a
+{
+text-decoration: none !important;
+border-radius: 4px;
+padding: 10px 20px;
+margin-right: 30px;
+font-weight: 600;
+border: 2px ;
+font-size: large;
+box-shadow: 0 0 40px 0 rgba(37,73,214,0.18);
+}
+.btn-one {
+    color: #000 !important;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn-two {
+    color: #f7f4f4 !important;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn-one:hover{
+  background-color: #262525;
+}
+
+.content-about-two h1{
+    margin-top: 25% ;
+    color: #1e1d1f;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-right:50px ;
+}
+.content-about-two p{
+    margin-top: 5% ;
+    color: #00000080;
+    font-family: 'manrope',sans-serif ;
+    font-size: 1.25rem;
+    margin-right:50px ;
+}
+.image-two{
+    margin-top: 13% ;
+  margin-left: 30px;
+}
+.content-about-third h1{
+    margin-top: 25% ;
+    color: #1e1d1f;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-left:100px !important;
+}
+.content-about-third p{
+    margin-top: 5% ;
+    color: #00000080;
+    font-family: 'manrope',sans-serif ;
+    font-size: 1.25rem;
+    margin-left:100px ;
+
+}
+.image-three{
+    margin-top: 23% ;
+    margin-left:45px ;
+   padding-right:10px ;
+}
+.card-heading-text{
+    margin-top: 10% ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #000;
+}
+.card-subheading-text{
+    color: #00000080;
+    font-family: 'manrope',sans-serif ;
+    font-size: 20px;
+    padding-left:25% ;
+    padding-right:25% ;
+}
+
+
+
+
+ /* contact us */
+.contact-section {
+    padding: 60px 0;
+}
+.contact-details {
+    margin-bottom: 30px;
+}
+.contact-details h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.contact-details p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.contact-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.card-img {
+    width: 15%;
+}
+.contact-card-title{
+   
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder; 
+}
+.contact-card-text{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px; 
+    color: rgb(126, 126, 126);
+}
+.form-container{
+    margin-left: 100px;
+}
+.contact-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder; 
+}
+.contact-p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px; 
+    color: rgb(126, 126, 126);
+}
+
+form{
+    left: 70%;
+}
+#send{
+    background-image: linear-gradient(to right, red ,red, rgb(80, 4, 80));
+   padding-left:215px ;
+   padding-right:215px ;
+   color: #f7f8f9;
+   font-weight: 600;
+}
+
+.contactus{
+    padding-top: 300px;
+}
+.pictuer{
+   padding-left: 90px;
+}
+@media only screen and (max-width: 789px) {
+    .navbar{
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+    .navbar-brand{
+        margin-left: 2px;
+    }
+    .button{
+       display: none;
+    }
+    .aboutbg img {
+        width: 100%;
+        height: 200px;
+        display: block;
+    }
+    .aboutbg h1
+    {
+
+        font-size: 2.2rem;
+    }
+    .aboutbg h2{
+        font-size: 1rem;
+    }
+   .abottext{
+    font-size: 2rem;
+    margin-left:7px;
+    margin-right: 5px; 
+   }
+   .aboutbdy-text {
+    font-size:  1.5rem;
+    margin-left:7px;
+    margin-right: 5px; 
+   }
+   .content a{
+padding: 7px 17px;
+margin-right: 5px;
+font-size: small;
+}
+.content h1{
+    font-size: 2rem;
+}
+.content-about-two h1{
+    font-size: 2rem;
+   margin-left: 50px;
+    margin-right:5px ;
+    text-align: center;
+}
+.content-about-two p{
+    margin-left: 50px;
+    margin-right:5px ;
+    text-align: center;
+   }
+   .content-about-third h1{
+    margin-right: 45px;
+    font-size: 2rem;
+    text-align: center;
+    margin-left:2px !important;
+}
+.content-about-third p{
+    margin-left:2px ;
+    margin-right: 45px;
+    text-align: center;
+
+}
+
+}
